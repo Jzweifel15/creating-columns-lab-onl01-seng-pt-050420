@@ -5,7 +5,8 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background-color: #666;
+  background: url('../images/white-wood.jpg') no-repeat;
+  background-size: cover;
 }
 
 .container, h1 {
@@ -23,11 +24,6 @@ h4 {
   margin: 20px 0 0 0;
 }
 
-img:hover {
-  transition-duration: 1s;
-  transform: scale(1.05);
-}
-
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
@@ -35,31 +31,32 @@ img:hover {
 }
 
 .indifferent {
-  border: 1px solid #aaaa00;
-  box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
+  border: 1px solid #b8b81c;
+  box-shadow: -1px 1px #b8b81c, -2px 2px #b8b81c, -3px 3px #b8b81c, -4px 4px #b8b81c, -5px 5px #b8b81c;
 }
+
 
 .dubious {
-  border: 1px solid #aa2222;
-  box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
+  border: 1px solid #b93131;
+  box-shadow: -1px 1px #b93131, -2px 2px #b93131, -3px 3px #b93131, -4px 4px #b93131, -5px 5px #b93131;
 }
 
-/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
-  
+  width: 30%;
+  display: inline-block;
 }
 
-/* create your tile classes! we recommend .small .med .large */
 .small {
-  
+  width: 100%;
+  height: 100%;
 }
 
 .med {
-  
+  width: 203.5%;
 }
 
 .large {
-  
+  width: 303%;
 }
